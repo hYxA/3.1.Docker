@@ -9,4 +9,4 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: KJSDgfw56sdgfguyDFC75
     ports:
-      - 3036:5432
+      - "3036:5432"
