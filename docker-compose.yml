@@ -7,6 +7,6 @@ services:
     environment:
       POSTGRES_DB: apps
       POSTGRES_USER: user
-      POSTGRES_PASSWORD: KJSDgfw56sdgfguyDFC75
+      POSTGRES_PASSWORD: password
     ports:
-      - "3036:5432"
+      - "5432:5432"
