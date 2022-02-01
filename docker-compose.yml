@@ -1,16 +1,6 @@
 version: '3.7'
 
 services:
-  db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_DB: apps
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: pass
-    ports:
-      - "5432:5432"
-
   node-app:
     build: .
     image: node-app:1.0
